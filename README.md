@@ -70,8 +70,9 @@ File Structure for the same folder is as below
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/KSN7630/Toxic-Comment-Classification.git
-cd Toxic-Comment-Classification
+git clone https://github.com/KSN7630/Toxic_Comment_Class_Api.git
+cd Toxic_Comment_Class_Api
+cd Classification_Api
 ``` 
 2. Download Trained models from link :
 ```bash
@@ -85,7 +86,9 @@ Extract zip file into folder named "models"
 pip install -r requirements.txt
 ```
 4. Run the main.py file to start the FastAPI server, which will be accessible at http://127.0.0.1:8000/.
-
+```bash
+python main.py
+```
 
 # Api Endpoints :
 
