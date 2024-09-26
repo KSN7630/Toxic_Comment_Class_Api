@@ -15,7 +15,7 @@ The goal is to build a model that predicts the probability of each type of toxic
 
 Link for our models and results →
 
-https://drive.google.com/drive/folders/1VjPzA_F612-AT6GVxXp2czKCWjX_0y6k?usp=sharing   (Download Trained Models From Here)
+[https://drive.google.com/drive/folders/1VjPzA_F612-AT6GVxXp2czKCWjX_0y6k?usp=sharing](https://drive.google.com/drive/folders/1MAqe0wxpqrVZ2298PLoX7_taqhfrwY0y?usp=drive_link)   (Download Trained Models From Here)
 
 ## Project Structure
 
