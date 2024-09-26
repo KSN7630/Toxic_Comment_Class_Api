@@ -12,7 +12,7 @@ class CommentRequest(BaseModel):
 @app.post("/predict-comment")
 def comment_prediction(request: CommentRequest):
     input_string = request.input_string
-    print(input_string)
+
     prediction_report = output_report(input_string,models)
     # Return the prediction result
     print(prediction_report)
@@ -25,6 +25,6 @@ def comment_prediction(request: CommentRequest):
 def read_root():
     return {"Hello": "World"}
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run(app, host="127.0.0.1", port=8000)

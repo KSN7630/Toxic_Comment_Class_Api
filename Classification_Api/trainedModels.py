@@ -10,7 +10,7 @@ def load_models():
         temp_model = []
         for model_name in model_str[i]:
             file_path = os.path.join('models', f"{model_name}{i + 1}.sav")
-            print(file_path)
+            
             
             with open(file_path, 'rb') as file:
                 curr_model_out = pickle.load(file)
