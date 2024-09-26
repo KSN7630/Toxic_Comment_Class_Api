@@ -9,14 +9,14 @@ models=load_models()
 class CommentRequest(BaseModel):
     input_string: str
 
-@app.post("/predict-comment")
-def comment_prediction(request: CommentRequest):
-    input_string = request.input_string
+# @app.post("/predict-comment")
+# def comment_prediction(request: CommentRequest):
+#     input_string = request.input_string
 
-    prediction_report = output_report(input_string,models)
-    # Return the prediction result
-    print(prediction_report)
-    return prediction_report
+#     prediction_report = output_report(input_string,models)
+#     # Return the prediction result
+#     print(prediction_report)
+#     return prediction_report
 
 
 
