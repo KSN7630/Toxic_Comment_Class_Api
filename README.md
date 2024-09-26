@@ -103,7 +103,7 @@ Example Request :
 Response :
 ```bash
 {
-    "Status": false,     #Shows overall Toxic or Not  --> true For Toxic
+    "Status": false,     #Shows overall Toxic or Not  --> false For Toxic
     "toxic": true/false,      
     "severe_toxic": true/false,
     "obscene": true/false,
