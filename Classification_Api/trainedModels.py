@@ -4,7 +4,7 @@ import os
 # taking the best model for each output column
 def load_models():
     # model_str = [['rf', 'lr', 'svm', 'knn' ,'xgb', 'lgbm'], ['rf', 'lr', 'svm', 'lgbm'], ['rf', 'lr', 'svm','xgb', 'lgbm'], ['lr', 'svm','xgb', 'lgbm'], ['rf', 'lr', 'svm' ,'xgb', 'lgbm'], ['rf', 'svm','xgb']]
-    model_str = [['lr', 'svm', 'knn' ,'xgb', 'lgbm'], ['rf', 'lr', 'svm', 'lgbm'], ['rf', 'lr', 'svm','xgb', 'lgbm'], ['lr', 'svm','xgb', 'lgbm'], [ 'lr', 'svm' ,'xgb', 'lgbm'], ['rf', 'svm','xgb']]
+    model_str = [['lr', 'svm', 'knn' ,'xgb', 'lgbm'], ['rf', 'lr', 'svm', 'lgbm'], [ 'lr', 'svm','xgb', 'lgbm'], ['lr', 'svm','xgb', 'lgbm'], [ 'lr', 'svm' ,'xgb', 'lgbm'], ['rf', 'svm','xgb']]
     models = []
     for i in range(0, 6):
         temp_model = []
