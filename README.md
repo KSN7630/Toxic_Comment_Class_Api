@@ -76,7 +76,7 @@ cd Classification_Api
 ``` 
 2. Download Trained models from link :
 ```bash
-https://drive.google.com/drive/folders/1VjPzA_F612-AT6GVxXp2czKCWjX_0y6k?usp=sharing   (Download Trained Models From Here)
+https://drive.google.com/drive/folders/1MAqe0wxpqrVZ2298PLoX7_taqhfrwY0y?usp=sharing   (Download Trained Models From Here)
 ```
 
 Extract zip file into folder named "models"
